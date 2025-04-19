@@ -14,7 +14,7 @@
             const minutes = now.getMinutes();
             const seconds = now.getSeconds();
             const time = hours + ":" + minutes + ":" + seconds;
-            document.body.textContent = time;
+            document.body.innerHTML = time;
         }
         setInterval(Clock, 1000);
 
